@@ -1,0 +1,146 @@
+@media (max-width: 2560px) {
+  .big-title { font-size: 14vw; letter-spacing: 12px; }
+  .about { gap: 80px; grid-template-columns: 1.2fr 1fr; }
+  .intro-title { font-size: 65px; }
+  .about-description { margin-top: 40px; }
+  .red-circle { width: 350px; height: 350px; }
+  .red-circle.small { width: 300px; height: 300px; }
+  .leftside { width: 45%; }
+  .rightSide { width: 50%; }
+  .education-title { font-size: 150px; top: 220px; }
+  .upperSide { height: 420px; margin-bottom: 120px; }
+  .education-banner { height: 220px; }
+  .horizontal_img { top: 70px; width: 95%; height: 220px; }
+  .lowerside { gap: 100px; }
+  .school { font-size: 50px; }
+  .degree { font-size: 18px; }
+  .cert-title { font-size: 80px; }
+  .cert-grid { gap: 50px; }
+  .footer-title { font-size: 80px; }
+}
+
+@media (max-width: 1920px) {
+  .big-title { font-size: 13vw; letter-spacing: 12px; }
+  .intro-title { font-size: 60px; }
+  .education-title { font-size: 140px; top: 200px; }
+  .upperSide { height: 380px; margin-bottom: 100px; }
+  .education-banner { height: 200px; }
+  .horizontal_img { top: 60px; height: 200px; }
+}
+
+@media (max-width: 1440px) {
+  .big-title { font-size: 12vw; letter-spacing: 10px; }
+  .intro-title { font-size: 55px; }
+  .about { gap: 60px; grid-template-columns: 1.1fr 1fr; }
+  .about-description { margin-top: 30px; }
+  .red-circle { width: 300px; height: 300px; }
+  .red-circle.small { width: 250px; height: 250px; }
+  .leftside { width: 45%; }
+  .rightSide { width: 50%; }
+  .education-title { font-size: 120px; top: 150px; }
+  .upperSide { height: 300px; margin-bottom: 80px; }
+  .education-banner { height: 150px; }
+  .horizontal_img { top: 50px; width: 90%; height: 150px; }
+  .lowerside { gap: 80px; }
+  .school { font-size: 42px; }
+  .degree { font-size: 16px; }
+  .cert-title { font-size: 70px; }
+  .cert-grid { gap: 40px; }
+  .footer-title { font-size: 70px; }
+}
+
+@media (max-width: 1200px) {
+  .about { grid-template-columns: 1fr; gap: 40px; text-align: center; }
+  .intro-title { font-size: 48px; line-height: 1.2; }
+  .experience { flex-direction: column; gap: 60px; }
+  .leftside, .rightSide { width: 100%; }
+  .timeline-nav-horizontal { justify-content: center; }
+  .education-title { font-size: 100px; top: 120px; }
+  .upperSide { height: 250px; margin-bottom: 60px; }
+  .education-banner { height: 120px; }
+  .horizontal_img { top: 40px; height: 120px; }
+  .lowerside { grid-template-columns: 1fr; gap: 60px; text-align: center; }
+  .right img { width: 70%; }
+  .cert-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+  .footer-container { grid-template-columns: 1fr 1fr; gap: 30px; }
+}
+
+@media (max-width: 992px) {
+  .big-title { font-size: 10vw; letter-spacing: 8px; }
+  .intro-title { font-size: 40px; }
+  .about-description { font-size: 15px; }
+  .timeline-btn { padding: 8px 16px; font-size: 12px; }
+  .education-title { font-size: 80px; top: 100px; }
+  .upperSide { height: 220px; margin-bottom: 40px; }
+  .education-banner { height: 100px; }
+  .horizontal_img { top: 30px; height: 100px; }
+  .school { font-size: 36px; }
+  .degree { font-size: 15px; }
+  .cert-title { font-size: 60px; }
+  .footer-title { font-size: 60px; }
+  .about { gap: 20px; }
+  .experience { gap: 20px; }
+  .lowerside { gap: 20px; }
+  .section { padding: 80px 6%; min-height: auto; }
+  .about-right,
+  .sidepic,
+  .right img,
+  .exp-image img,
+  .red-circle,
+  .red-circle.small,
+  .red-blob {
+    display: none !important;
+  }
+  .about-left { grid-column: 1 / -1; text-align: center; }
+  .leftside, .rightSide { width: 100%; }
+  .timeline-content { width: 100%; }
+}
+
+@media (max-width: 768px) {
+  .big-title { font-size: 8vw; letter-spacing: 6px; }
+  .intro-title { font-size: 34px; }
+  .about-description { line-height: 1.6; }
+  .education-title { font-size: 60px; top: 80px; }
+  .upperSide { height: 180px; margin-bottom: 30px; }
+  .education-banner { height: 80px; }
+  .horizontal_img { top: 20px; height: 80px; }
+  .school { font-size: 30px; }
+  .degree { font-size: 14px; }
+  .lowerside { gap: 15px; }
+  .cert-grid { grid-template-columns: 1fr; gap: 15px; }
+  .footer-container { grid-template-columns: 1fr; gap: 15px; }
+  .section { padding: 60px 5%; }
+}
+
+@media (max-width: 480px) {
+  .big-title { font-size: 14vw; letter-spacing: 4px; }
+  nav { right: 2%; bottom: 30px; }
+  .intro-title { font-size: 28px; }
+  .about-description { font-size: 14px; margin-top: 20px; }
+  .timeline-btn { padding: 6px 12px; font-size: 11px; }
+  .education-title { font-size: 50px; top: 60px; }
+  .upperSide { height: 140px; margin-bottom: 20px; }
+  .education-banner { height: 60px; }
+  .horizontal_img { top: 15px; height: 60px; }
+  .school { font-size: 26px; }
+  .degree { font-size: 13px; }
+  .cert-title { font-size: 45px; }
+  .footer-title { font-size: 45px; }
+  .footer-container { grid-template-columns: 1fr; }
+  .section { padding: 50px 4%; }
+}
+
+@media (max-width: 360px) {
+  .big-title { font-size: 16vw; letter-spacing: 3px; }
+  .intro-title { font-size: 24px; }
+  .about-description { font-size: 13px; line-height: 1.5; }
+  .education-title { font-size: 40px; top: 50px; }
+  .upperSide { height: 120px; margin-bottom: 15px; }
+  .education-banner { height: 50px; }
+  .horizontal_img { top: 10px; height: 50px; }
+  .school { font-size: 22px; }
+  .degree { font-size: 12px; }
+  .cert-title { font-size: 40px; }
+  .footer-title { font-size: 40px; }
+  .section { padding: 40px 4%; }
+}
